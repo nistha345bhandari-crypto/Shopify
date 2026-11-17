@@ -1,16 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About Shopify 🛍️
 
-Currently, two official plugins are available:
+Shopify is a responsive React-based e-commerce web application designed to provide users with a smooth and convenient online shopping experience. The project focuses on a beauty and cosmetics store where users can explore products, search and filter items, view product details, and manage their shopping cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application includes user signup and login functionality, protected routes, product browsing, cart management, and a simulated checkout process. React Context API is used for cart state management, while Local Storage helps maintain user and cart data across page refreshes.
 
-## React Compiler
+### Key Features
+- User Signup and Login
+- Protected Routes
+- Product Listing and Search
+- Category Filtering and Sorting
+- Individual Product Details
+- Add to Cart and Remove from Cart
+- Increase and Decrease Product Quantity
+- Cart Total Calculation
+- Simulated Checkout Process
+- Local Storage Persistence
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tech Stack
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- Context API
+- Local Storage
+- Vite
